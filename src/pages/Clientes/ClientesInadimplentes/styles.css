@@ -1,0 +1,91 @@
+.container-clientes {
+    display: flex;
+}
+
+.body-clientes {
+    background-color: #F8F8F9;
+    padding: 4rem 8rem 4rem 19rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.barra-pesquisa {
+    margin-top: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.logo-title span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.add-e-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.addCliente {
+    all: unset;
+    width: 26.6rem;
+    height: 3.3rem;
+    padding: 0.4rem 5.6rem;
+    background-color: #DA0175;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5px;
+    color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-lupa {
+    width: 31.8rem;
+    height: 3.9rem;
+    background: #FFFFFF;
+    border: 0.2rem solid rgb(214, 212, 212);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisa {
+    all: unset;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    color: #747488;
+    padding: 1rem;
+}
+
+.lupa {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+/* .tabela-lista_clientes {
+    width: 100%;
+    min-height: 64.25rem;
+    margin-bottom: 4.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+} */

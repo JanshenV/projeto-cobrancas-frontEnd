@@ -1,0 +1,187 @@
+.container-edit-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 5;
+    background-color: #919a964d;
+    backdrop-filter: blur(0.2rem);
+}
+
+.card-edit-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 410px;
+    min-height: 510px;
+    max-height: 650px;
+    background-color: #FFFFFF;
+    border-radius: 3rem;
+    gap: 0.3rem;
+}
+
+.card-edit-user h1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-edit-user label {
+    margin-top: 0.3rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.close-edit-user {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    cursor: pointer;
+}
+
+.card-edit-user div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width: 300px;
+}
+
+.container-edit-user input {
+    all: unset;
+    box-sizing: border-box;
+    border: 1px solid #D0D5DD;
+    color: #000;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    Height: 3.4rem;
+    width: 100%;
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container-edit-user input:focus {
+    border: 0.2rem solid black;
+}
+
+.button-aplicar {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 2px;
+    margin-bottom: 2rem;
+    background-color: #DA0175;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.div-email-nome {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.div-cpf-telefone {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.div-erro-cpf-telefone {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.div-erro-cpf-telefone div {
+    width: 50%;
+}
+
+.div-senhas {
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.div-senhas button {
+    all: unset;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+}
+
+.div-senhas button img {
+    width: 20px;
+}
+
+.div-cpf-telefone div,
+.div-email-nome div,
+.div-senhas div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.div-cpf-telefone div > *,
+.div-email-nome div > *,
+.div-senhas div > * {
+   margin-bottom: 0.5rem;
+}
+
+.mensagem-erro {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.hidden-erro {
+    display: none;
+}
+
+.div-cpf-telefone .border-red,
+.div-email-nome .border-red,
+.div-senhas .border-red {
+    border: 1px solid red;
+}

@@ -1,0 +1,29 @@
+.ajuste-seta {
+    height: 7.8rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2rem;
+    left: -1.5rem;
+}
+
+.ajuste-seta_img {
+    margin-right: 7rem;
+    margin-bottom: -0.2rem;
+}
+
+.container-button {
+    width: 9rem;
+    height: 7rem;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    gap: 2rem;
+}
+
+.container-button img {
+    cursor: pointer;
+}

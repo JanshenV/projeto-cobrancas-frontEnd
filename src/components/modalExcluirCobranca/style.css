@@ -1,0 +1,88 @@
+.containerModalExcluirCobranca {
+    margin: 0rem;
+    margin-left: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #919a964d;
+    backdrop-filter: blur(0.2rem);
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.confirmarExcluirCobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 37.5rem;
+    min-height: 25rem;
+    max-height: 30rem;
+    padding: 2rem 2rem;
+    background: #ffffff;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+.btnFechar {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    width: 1.8rem;
+}
+
+.vetor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.confirmarExcluirCobranca span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 37.5rem;
+    font-size: 1.25rem;
+    color: #cc7800;
+    margin-bottom: 1.68rem;
+}
+
+.btnConfirmar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btnNao {
+    all: unset;
+    text-align: center;
+    width: 6.25rem;
+    height: 1.5rem;
+    background: #f2d6d0;
+    border-radius: 0.25rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25rem;
+    color: #ae1100;
+    padding: 0.5rem;
+}
+
+.btnSim {
+    all: unset;
+    text-align: center;
+    width: 6.25rem;
+    height: 1.5rem;
+    background: #acd9c5;
+    border-radius: 0.25rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25rem;
+    color: #034a2a;
+    padding: 0.5rem;
+}

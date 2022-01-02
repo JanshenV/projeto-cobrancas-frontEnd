@@ -1,0 +1,175 @@
+.container-login {
+    display: flex;
+    align-items: center;
+    gap: 40rem;
+}
+
+.login-left {
+    width: 58rem;
+    height: 100vh;
+    background-image: url('../../assets/pages/Login/imagemLogin.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-left h1 {
+    color: #034a2a;
+    width: 38.8rem;
+    margin-top: 146.5px;
+    margin-left: 4.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.login-rigth {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-rigth h1 {
+    color: #343447;
+    margin-bottom: 3.2rem;
+    font-family: ' Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 130%;
+}
+
+.box-erros p {
+    color: red;
+    font-family: ' Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.msg-input{
+    margin:0rem;
+    font-family: ' Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #E70000;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3f3f55;
+}
+
+.login-form input {
+    width: 34.4rem;
+    height: 4.4rem;
+    background: #ffffff;
+    border: 0.1rem solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0 1rem 2rem rgba(16, 24, 40, 0.08);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.6rem;
+}
+
+.senha-login {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+    color: #3f3f55;
+}
+
+.senha-login span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: hsla(328, 99%, 43%, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-senha-login {
+    position: relative;
+}
+
+.btn-senha-login {
+    all: unset;
+    position: absolute;
+    right: 1rem;
+    top: 3.2rem;
+}
+
+.btn-senha-login img {
+    width: 25px;
+}
+
+.btn-entrar_login {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsla(240, 8%, 97%, 1);
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    background: #da0175;
+    border-radius: 1rem;
+    width: 16rem;
+    height: 3.3rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+.semconta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: #3f3f55;
+    margin-top: 2rem;
+}
+
+.semconta span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: hsla(328, 99%, 43%, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

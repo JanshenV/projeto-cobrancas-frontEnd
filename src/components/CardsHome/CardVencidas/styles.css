@@ -1,0 +1,86 @@
+.card_vencidas {
+    width: 36rem;
+    padding: 1.2rem 4rem;
+    background: #FFFFFF;
+    box-shadow: 0 0.4rem 0.4rem rgba(172, 217, 197, 0.25);
+    border-radius: 3rem;
+}
+
+.titulo_vencidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 1.4rem 1.8rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.titulo_vencidas span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3F3F55;
+}
+
+.quantidade_vencidas {
+    width: 5rem;
+    height: 2rem;
+    background: #FFEFEF;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #971D1D;
+}
+
+.cabecalho_vencidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem;
+    gap: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3F3F55;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.cabecalho_vencidas span {
+    width: 12rem;
+}
+
+.cliente_vencidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem;
+    gap: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6E6E85;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.cliente_vencidas span {
+    width: 12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn_vencidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+    gap: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #DA0175;
+    text-decoration: underline;
+    cursor: pointer;
+}

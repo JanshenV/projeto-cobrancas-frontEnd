@@ -1,0 +1,33 @@
+.cadastro-dados_rodape{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.container-cadastro_dados {
+    display: flex;
+}
+
+.cadastro-dados_left{
+    width: 50rem;
+    height: 100vh;
+    background: #F0F0F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-dados_rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 50rem );
+}
+
+.form-rodape_dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-between;
+}

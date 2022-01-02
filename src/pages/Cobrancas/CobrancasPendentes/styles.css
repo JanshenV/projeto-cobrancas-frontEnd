@@ -1,0 +1,73 @@
+.container-cobrancas {
+    display: flex;
+}
+
+.body-cobrancas {
+    background-color: #F8F8F9;
+    padding: 4rem 8rem 4rem 19rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.barra-pesquisa_cobrancas {
+    margin-top:  3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.logo-title_cobrancas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.logo-title_cobrancas span {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.pesquisa_cobrancas {
+    display: flex;
+    align-items: center;
+    gap:1.6rem;
+}
+
+.div-lupa_cobrancas {
+    width: 31.8rem;
+    height: 3.9rem;
+    background: #FFFFFF;
+    border: 0.2rem solid rgb(214, 212, 212);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-pesquisa_cobrancas {
+    all: unset;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    color: #747488;
+    padding: 1rem;
+}
+
+.lupa_cobrancas {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+/* .tabela-lista_cobrancas {
+    width: 100%;
+    height: 64.25rem;
+    margin-bottom: 4.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+} */
+

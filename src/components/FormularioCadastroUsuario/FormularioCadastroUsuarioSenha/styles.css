@@ -1,0 +1,118 @@
+.container-form_senha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form_senha h2 {
+    margin-bottom: 3.2rem;
+    font-family: ' Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 130%;
+    color: #343447;
+}
+
+.input-form_senha {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3f3f55;
+}
+
+.input-form_senha .border-red {
+    border: 1px solid red;
+}
+
+.input-form_senha p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+    margin-top: 0.1rem;
+}
+
+.input-form_senha div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form_senha button {
+    all: unset;
+    position: absolute;
+    right: 2rem;
+    top: 3.8rem;
+}
+
+.input-form_senha img {
+   width: 2.5rem;
+}
+
+.input-form_senha input {
+    width: 34.4rem;
+    height: 4.4rem;
+    background: #ffffff;
+    border: 0.1rem solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0 1rem 2rem rgba(16, 24, 40, 0.08);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-continuar_senha {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsla(240, 8%, 97%, 1);
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    background: #da0175;
+    border-radius: 1rem;
+    width: 16rem;
+    height: 3.3rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.entradaLogin_senha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: #3f3f55;
+    margin-top: 2rem;
+}
+
+.entradaLogin_senha span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: hsla(328, 99%, 43%, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}

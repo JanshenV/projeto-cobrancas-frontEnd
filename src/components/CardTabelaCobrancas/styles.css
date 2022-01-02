@@ -1,0 +1,132 @@
+.container-card_tabela-cobrancas {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 4.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+    padding: 2.2rem;
+}
+
+.title-lista_tabela-cobrancas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.espaco-lista_tabela-cobrancas {
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.espaco-lista_tabela-cobrancas img {
+    cursor: pointer;
+}
+
+.espaco-lista_descricao_tabela-cobrancas {
+    width: 34.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-tituto-lista_tabela-cobrancas {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+}
+
+.dados-lista_tabela-cobrancas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    border-top: 1px solid #EFF0F6;
+}
+
+.dados-lista_tabela-cobrancas:hover {
+    text-decoration: underline;
+}
+
+.estilo-texto_tabela-cobrancas {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.005em;
+    color: #6E6E85;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.estilo-texto_status-paga_tabela-cobrancas {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #1FA7AF;
+    background: #EEF6F6;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.estilo-texto_status-vencida_tabela-cobrancas {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #971D1D;
+    background: #FFEFEF;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.estilo-texto_status-pendente_tabela-cobrancas {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #C5A605;
+    background: #FCF6DC;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.espaco-lista_editar-excluir_tabela-cobrancas {
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.espaco-lista_editar-excluir_tabela-cobrancas img {
+    padding: 1rem;
+}
+
+.paginacao-cobrancas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 4vh;
+    margin-top: 2vh;
+}
+
+.paginacao-cobrancas-esquerda,
+.paginacao-cobrancas-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(14, 135, 80, 0.7);
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}

@@ -1,0 +1,105 @@
+.container-form_dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form_dados h2 {
+    margin-bottom: 3.2rem;
+    font-family: ' Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 130%;
+    color: #343447;
+}
+
+.input-form_dados {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3f3f55;
+}
+
+.input-form_dados p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+    margin-top: 0.1rem;
+}
+
+.input-form_dados input {
+    width: 34.4rem;
+    height: 4.4rem;
+    background: #ffffff;
+    border: 0.1rem solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0 1rem 2rem rgba(16, 24, 40, 0.08);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-form_dados .border-red {
+    border: 1px solid red;
+}
+
+.input-form_dados label {
+    margin-top: 1rem;
+}
+
+.btn-continuar_dados {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsla(240, 8%, 97%, 1);
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    background: #da0175;
+    border-radius: 1rem;
+    width: 16rem;
+    height: 3.3rem;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.entradaLogin_dados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: #3f3f55;
+    margin-top: 2rem;
+}
+
+.entradaLogin_dados span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 130%;
+    color: hsla(328, 99%, 43%, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}

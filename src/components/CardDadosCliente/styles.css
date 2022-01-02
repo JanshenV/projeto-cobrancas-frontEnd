@@ -1,0 +1,69 @@
+.container-card_dados-clientes {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 3rem;
+  padding: 2.4rem;
+}
+.txt-dados {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f3f55;
+  margin-bottom: 1.5rem;
+}
+.dados-btn-editar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-editar {
+  width: 25.2rem;
+  height: 3.3rem;
+  padding: 0.4rem 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F8F8F9;
+  border: 0.1rem solid #DEDEE9;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.btn-editarcliente {
+  position: absolute;
+  all: unset;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #0e8750;
+}
+.table-dados-cliente {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 5.5rem;
+}
+.table-endereco-cliente {
+  width: 100%;
+  border-collapse: collapse;
+}
+.colum-title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: initial;
+  padding: 1rem 0;
+}
+.line-items {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #3f3f55;
+  padding: 1rem 0;
+}

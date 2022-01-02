@@ -1,0 +1,157 @@
+.container-card_cobrancas-clientes {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 4.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+    padding: 2.2rem;
+}
+
+.div-title_cobrancas-clientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.3rem;
+}
+
+.title_cobrancas-clientes {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.btn-nova-cobranca {
+    all: unset;
+    width: 25.2rem;
+    height: 3.3rem;
+    padding: 0.4rem 5.6rem;
+    background-color: #DA0175;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-lista-cobrancas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.espaco-lista_cobrancas-clientes {
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.espaco-lista_cobrancas-clientes img {
+    cursor: pointer;
+}
+
+.espaco-lista_descricao_cobrancas {
+    width: 34.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-tituto-lista {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+}
+
+.dados-lista-cobrancas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    border-top: 1px solid #EFF0F6;
+}
+
+.estilo-texto-lista {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.005em;
+    color: #6E6E85;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.estilo-texto_status-paga {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #1FA7AF;
+    background: #EEF6F6;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.estilo-texto_status-vencida {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #971D1D;
+    background: #FFEFEF;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.estilo-texto_status-pendente {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.005em;
+    color: #C5A605;
+    background: #FCF6DC;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.espaco-lista_editar-excluir {
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.paginacao-cliente-cobrancas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 4vh;
+    margin-top: 2vh;
+}
+
+.paginacao-cliente-cobrancas-esquerda,
+.paginacao-cliente-cobrancas-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(14, 135, 80, 0.7);
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}

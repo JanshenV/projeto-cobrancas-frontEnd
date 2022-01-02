@@ -1,0 +1,88 @@
+.card_emDia {
+    width: 55.6rem;
+    padding: 1.2rem 4rem;
+    background: #FFFFFF;
+    box-shadow: 0 0.4rem 0.4rem rgba(172, 217, 197, 0.25);
+    border-radius: 3rem;
+}
+
+.titulo_emDia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 1.4rem 1.8rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.titulo_emDia span {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3F3F55;
+}
+
+.quantidade_emDia {
+    width: 5rem;
+    height: 2rem;
+    background: #EEF6F6;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #1FA7AF;
+}
+
+.cabecalho_emDia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem;
+    gap: 7rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #3F3F55;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.cabecalho_emDia span {
+    width: 16rem;
+}
+
+.controle-clientes_emDia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem;
+    gap: 7rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6E6E85;
+    border-bottom: 0.1rem solid #EFF0F7;
+}
+
+.controle-clientes_emDia span {
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-controle-clientes_emDia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+    gap: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #DA0175;
+    text-decoration: underline;
+    cursor: pointer;
+}

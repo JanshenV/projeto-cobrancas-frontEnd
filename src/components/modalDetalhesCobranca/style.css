@@ -1,0 +1,111 @@
+.containerModalDetalheCobranca {
+    margin: 0rem;
+    margin-left: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #919a964d;
+    backdrop-filter: blur(0.2rem);
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.dadosDetalheCobranca {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 45.5rem;
+    min-height: 25rem;
+    max-height: 32rem;
+    padding: 2rem 2rem;
+    background: #ffffff;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 3.7rem;
+    right: 4rem;
+    width: 2rem;
+}
+
+.headerDetalheCobranca {
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: -1.25rem;
+    margin-bottom: 2rem;
+}
+
+.headerDetalheCobranca span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 37.5rem;
+    font-size: 2.6rem;
+    color: #3f3f55;
+    margin-top: 0.5rem;
+}
+
+.bodyDetalheCobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: initial;
+    padding: 0.5rem;
+    margin-top: -1rem;
+    gap: 2rem;
+}
+
+.campoGrupoDetalheCobranca {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+
+.camposDetalheCobranca .titleDetalheCobranca {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1rem;
+    color: #2f2f3d;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.camposDetalheCobranca .textDetalheCobranca {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #3f3f55;
+}
+
+.vencida,
+.pendente,
+.paga {
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.vencida {
+    color: #971d1d !important;
+    background: #FFEFEF;
+}
+
+.pendente {
+    color: #c5a605 !important;
+    background: #FCF6DC;
+}
+
+.paga {
+    color: #1fa7af !important;
+    background: #EEF6F6;
+}

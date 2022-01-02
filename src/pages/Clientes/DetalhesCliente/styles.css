@@ -1,0 +1,47 @@
+.container-dados_clientes {
+    display: flex;
+}
+
+.body-dados_clientes {
+    background-color: #F8F8F9;
+    padding: 4rem 8rem 4rem 19rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.div-dados_clientes {
+    margin-top:  3.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.title-dados_clientes {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.title-dados_clientes span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+/* .card-dados_clientes {
+    width: 100%;
+    height: 26.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+} */
+
+/* .card-cobrancas_clientes {
+    width: 100%;
+    height: 34.8rem;
+    margin-bottom: 4.5rem;
+    background: #FFFFFF;
+    border-radius: 3rem;
+} */
